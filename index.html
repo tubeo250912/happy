@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sinh Nhật của em 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="background"></div>
+
+  <div class="password-box">
+    <img src="avatar.jpg" class="avatar" alt="Avatar" />
+    <h2>Sinh Nhật của em 😊</h2>
+    <input type="password" id="password" readonly />
+    <div class="numpad">
+      <button onclick="press('1')">1</button>
+      <button onclick="press('2')">2</button>
+      <button onclick="press('3')">3</button>
+      <button onclick="press('4')">4</button>
+      <button onclick="press('5')">5</button>
+      <button onclick="press('6')">6</button>
+      <button onclick="press('7')">7</button>
+      <button onclick="press('8')">8</button>
+      <button onclick="press('9')">9</button>
+      <button onclick="clearInput()">❌</button>
+      <button onclick="press('0')">0</button>
+      <button onclick="checkPassword()">✔️</button>
+    </div>
+  </div>
+
+  <div class="greeting hidden" id="greeting">
+    <h1>🎉 Chúc mừng sinh nhật Anh Thư 🎂</h1>
+    <p>Chúc em luôn vui vẻ, hạnh phúc và xinh đẹp!</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
